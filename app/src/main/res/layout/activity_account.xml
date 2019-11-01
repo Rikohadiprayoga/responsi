@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="87dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Registrasi account"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/tx_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tx_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nim"/>
+
+        <TextView
+            android:id="@+id/tx_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="username"/>
+
+        <TextView
+            android:id="@+id/tx_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"/>
+
+        <TextView
+            android:id="@+id/tx_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
